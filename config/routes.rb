@@ -9,7 +9,7 @@ namespace :admin do
         post :to_normal
       end
    end
-end
+
 
 resources :products
 
