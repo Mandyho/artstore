@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
+gem "aasm"
 gem "devise"
+
 
 gem "bootstrap-sass"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
