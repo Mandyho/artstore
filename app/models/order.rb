@@ -24,6 +24,7 @@ def build_item_cache_from_cart(cart)
   def calculate_total!(cart)
     self.total = cart.total_price
     self.save
+    #self指的就是我們物件本身
   end
 
 include AASM

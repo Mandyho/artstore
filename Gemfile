@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 gem "aasm"
 gem "devise"
 
+gem "roadie", "2.4.3"
+
+gem "letter_opener", group: :development
+gem "pay2go"
 
 gem "bootstrap-sass"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
