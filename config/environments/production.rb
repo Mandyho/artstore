@@ -1,6 +1,6 @@
 Rails.application.configure do
 
-  config.action_mailer.default_url_options = { host: 'https://git.heroku.com/artstore-mandy.git' } # 你的 heroku app 網址
+  config.action_mailer.default_url_options = { host: 'artstore-mandy.herokuapp.com' } # 你的 heroku app 網址
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     port:           587,
