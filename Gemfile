@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 gem "aasm"
 gem "devise"
-
+gem "figaro"
 gem "roadie", "2.4.3"
-
+gem "fog"
 gem "letter_opener", group: :development
 gem "pay2go"
 
